@@ -70,8 +70,7 @@
   progressBars.forEach(bar => progressObserver.observe(bar));
 
   // ---------- FORMULÁRIO → WHATSAPP ----------
-  const form = document.getElementById('contactForm');
-  const WHATSAPP_NUMBER = '5500000000000'; // ← substitua pelo número real
+  const WHATSAPP_NUMBER = '5541987314982'; // Número da Teacher Milena
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
